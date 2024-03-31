@@ -36,7 +36,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start" >
       <div className="flex flex-col items-center justify-start max-w-screen-sm">
-        <div className="pt-10 pl-5 pb-1 flex w-full border-liquid-accent border-solid border-b-2 min-w-[390px]">
+        <div className="pt-10 pl-5 pb-1 flex w-full border-liquid-accent border-solid border-b-2 min-w-[350px]">
           <h1 className={`${aldrich.className} text-liquid-primary self-start text-2xl`}>LiquidLab</h1>
         </div>
 
@@ -65,7 +65,7 @@ export default function Home() {
 
         </div>}
 
-        {form && !resultLoading && !result && <div className="w-full animate-slideLeft min-w-[390px] pt-8 left-0">
+        {form && !resultLoading && !result && <div className="w-full animate-slideLeft min-w-[350px] pt-8 left-0">
 
           <div className="px-5 flex flex-col justify-center items-start gap-[24px] mb-[35px] w-full">
             <Image onClick={() => setForm(false)} src='/back_arrow.png' className="cursor-pointer" alt="arrow" width={45} height={2} />
