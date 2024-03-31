@@ -41,7 +41,7 @@ export default function Home() {
         </div>
 
         {!form && <div>
-          <Image src='/doctor.png' className="w-full" width={500} height={350} alt="doctor" />
+          <Image src='/doctor.jpg' className="w-full" width={350} height={250} alt="doctor" />
           <div className="px-5 flex justify-center">
             <div className=" top-[250px] rounded-[20px] rounded-br-[60px] absolute text-bg-white bg-liquid-accent max-w-[350px] ">
               <p className="p-5 m-0 text-5 ">Welcome to the PCRMobile™ by LiquidLab. Put your tongue in the organic material collection zone to proceed.</p>
@@ -102,7 +102,7 @@ export default function Home() {
         </div>}
 
         {result && <div>
-          <Image src='/doctor_WOMAN_2.png' className="w-full" width={500} height={350} alt="doctor" />
+          <Image src='/doctor_WOMAN_2.jpg' className="w-full" width={350} height={250} alt="doctor" />
           <div className="px-5 flex justify-center mb-4">
             <div className=" top-[250px] rounded-[20px] rounded-br-[60px] absolute text-bg-white bg-liquid-accent max-w-[350px] ">
               <p className="p-5 m-0 text-5 ">Show this QR code on demand</p>
@@ -126,7 +126,7 @@ export default function Home() {
 
         {cat && <div className='flex  flex-col justify-end h-full items-center w-full fixed bottom-0 backdrop-blur-md bg-bg-liquid-blur right-auto max-w-[400px] '>
           <div className="pb-12">
-            <Image src='/kiss.gif' alt="kiss" className="rounded-[20px] w-[350px] h-[350px]" width={350} height={350} />
+            <Image priority src='/kiss.gif' alt="kiss" className="rounded-[20px] w-[350px] h-[350px]" width={350} height={350} />
           </div>
 
         </div>}
