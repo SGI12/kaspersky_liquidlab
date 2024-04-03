@@ -144,7 +144,7 @@ export default function Home() {
         </div>}
 
         {result && <div className="max-w-screen-sm">
-          <Image src='/doctor_woman_2.png' className="max-w-screen-sm w-full" width={350} height={250} alt="doctor" />
+          <Image src='/doctor_WOMAN_2.png' className="max-w-screen-sm w-full" width={350} height={250} alt="doctor" />
           <div className="px-5 flex justify-center mb-4">
             <div className=" top-[250px] rounded-[20px] rounded-br-[60px] absolute text-bg-white bg-liquid-accent  ">
               <p className="p-5 m-0 text-5 ">Show this QR code on demand</p>
